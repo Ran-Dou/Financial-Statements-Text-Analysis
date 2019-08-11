@@ -25,14 +25,6 @@ data.isna().sum().plot()
 data.isna().sum().sort_values(ascending=False).head(111)
 
 data.isna().sum().sort_values(ascending=False).head(111).index
-<<<<<<< HEAD
-data.info()
-=======
-data.
->>>>>>> master
-
-
-
 
 
 
