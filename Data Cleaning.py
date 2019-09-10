@@ -20,7 +20,7 @@ data_Cov = data.filter(regex='^Cov', axis=1).dropna(how='all').dropna(axis=1, ho
 columns = list(data.filter(regex='^Cov', axis=1).columns)
 data.drop(columns=columns, inplace=True)
  
-#### Check NA values again
+#### Check NA values again 
 data.isna().sum().plot()
 data.isna().sum().sort_values(ascending=False).head(111)
 
