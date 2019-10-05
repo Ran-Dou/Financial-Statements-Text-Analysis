@@ -1,4 +1,4 @@
-# Financial Statements Digestion #
+# Financial Statements Digestion
 
 
 ### Purpose ###
