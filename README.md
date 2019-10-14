@@ -5,7 +5,7 @@
 
 Demonstrate to banks the ability of delivering "AI" level insights - something they wouldn't be able to see today.
 
-### Step-by-Step Objectives ###
+### Step-by-Step Objectives ### 
 
 * Data Cleaning
 
