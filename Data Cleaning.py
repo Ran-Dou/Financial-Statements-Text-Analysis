@@ -10,7 +10,7 @@ data['masked EntityID'].value_counts().sort_values(ascending=False).head()  # ch
 data = pd.read_excel('masked_3_NAICS_codes_20190520 (with LineOfBusiness and Officer).xlsx', index_col=0)
 data.index.names = ['masked EntityID']
  
-# Exploring NA Values 
+# Exploring NA Values  
 data.info(verbose=True, null_counts=True)
 data.isna().sum().plot()
 data.isna().sum().sort_values(ascending=False).head(111)
